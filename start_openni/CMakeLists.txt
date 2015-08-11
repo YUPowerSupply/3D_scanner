@@ -1,0 +1,11 @@
+project(start_openni)
+cmake_minimum_required(VERSION 2.8)
+SET(OPENNI_DIR /home/kim/kinect/OpenNI-Linux-x86-2.2)
+SET(EXE_DIR /home/kim/kinect/3D_scanner/build-start_openni-Desktop-Default)
+link_directories(${OPENNI_DIR}/Tool)
+link_directories(${EXE_DIR})
+aux_source_directory(. SRC_LIST)
+add_executable(${PROJECT_NAME} ${SRC_LIST})
+
+target_link_libraries(${PROJECT_NAME} OpenNI2)
+target_link_libraries(${PROJECT_NAME} FreenectDriver)
