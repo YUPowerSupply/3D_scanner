@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kim/kinect/3D_scanner/start_openni/OniSampleUtilities.h
+stdio.h
+-
+openni2/OpenNI.h
+-
+conio.h
+-
+unistd.h
+-
+stdlib.h
+-
+termios.h
+-
+fcntl.h
+-
+
+/home/kim/kinect/3D_scanner/start_openni/main.cpp
+iostream
+-
+openni2/OpenNI.h
+-
+OniSampleUtilities.h
+/home/kim/kinect/3D_scanner/start_openni/OniSampleUtilities.h
+

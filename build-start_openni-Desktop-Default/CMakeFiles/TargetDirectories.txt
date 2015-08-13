@@ -1,0 +1,1 @@
+/home/kim/kinect/3D_scanner/build-start_openni-Desktop-Default/CMakeFiles/start_openni.dir

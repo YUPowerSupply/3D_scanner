@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/start_openni.dir/main.cpp.o  -o start_openni  -L/home/kim/kinect/OpenNI-Linux-x86-2.2/Tool  -L/home/kim/kinect/3D_scanner/build-start_openni-Desktop-Default -rdynamic -lOpenNI2 -lFreenectDriver -Wl,-rpath,/home/kim/kinect/OpenNI-Linux-x86-2.2/Tool:/home/kim/kinect/3D_scanner/build-start_openni-Desktop-Default 
